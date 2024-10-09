@@ -1,0 +1,60 @@
+.cardList {
+    width: 99vw;
+}
+
+.cart {
+    right: 0;
+    top: 0;
+    width: 25vw;
+    background: rgb(455, 455, 455);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cartHeader{
+    margin-bottom: -3vh;
+}
+
+.foodItem {
+    width: 240px;
+    height: 410px;
+}
+
+.foodItem img{
+    box-shadow: 0px 0px 2px black;
+}
+
+.cartItem {
+    box-shadow: 0px 0px 4px lightgrey;
+}
+
+.cart-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 25px;
+    right: 25px;
+    box-shadow: 0 0 3px black;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+@media (max-width:1100px) {
+    .cardList {
+        width: 100vw;
+    }
+
+    .cart {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    .foodItem {
+        width: 80vw;
+        height: 380px;
+
+    }
+}
